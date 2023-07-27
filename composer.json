@@ -1,0 +1,17 @@
+{
+    "name": "richardstiehm/phpiggy",
+    "description": "A PHP EXPENSE TRACKER",
+    "type": "project",
+    "authors": [
+        {
+            "name": "RJS"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Framework\\" : "src/Framework",
+            "App\\": "src/App"
+        }
+    }
+}
